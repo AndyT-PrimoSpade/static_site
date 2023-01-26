@@ -101,19 +101,19 @@
               <h4>Content Development and Management</h4>
             </div>
             <div class="icon-box mt-5">
-              <i class="bx bx-shield"></i>
+              <i class="bx bx-hive"></i>
               <h4>Automation</h4>
             </div>
             <div class="icon-box mt-5">
-              <i class="bx bx-shield"></i>
+              <i class="bx bx-briefcase"></i>
               <h4>Logistics</h4>
             </div>
             <div class="icon-box mt-5">
-              <i class="bx bx-shield"></i>
+              <i class="bx bx-cross"></i>
               <h4>Consultancy</h4>
             </div>
             <div class="icon-box mt-5">
-              <i class="bx bx-shield"></i>
+              <i class="bx bx-buildings"></i>
               <h4>Managed Services</h4>
             </div>
           </div>
@@ -478,7 +478,15 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  
+  <script>
+  var myModal = document.getElementById('myModal')
+  var myInput = document.getElementById('myInput')
 
+  myModal.addEventListener('shown.bs.modal', function () {
+    myInput.focus()
+  })
+  </script>
 </body>
 
 </html>
